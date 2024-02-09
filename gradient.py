@@ -57,4 +57,4 @@ class GradientBooster:
             pred -= self.lr * r
             #store the model for future use
             models.append(base)
-        return models, losses, pred
+        return models
